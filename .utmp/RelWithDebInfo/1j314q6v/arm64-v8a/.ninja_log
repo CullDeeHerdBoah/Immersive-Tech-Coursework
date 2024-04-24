@@ -1,0 +1,11 @@
+# ninja log v5
+744	1557	7283237015160176	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f3e32e659ba71bf7
+154	2161	7283237018541144	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c727c707158b5d38
+243	2232	7283237020396176	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	79801dadbc79c688
+371	2278	7283237020844991	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	700b72a4f087d12a
+2	2280	7283237021782467	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	768555f5fd6488b5
+533	2385	7283237023577665	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	643f148bf052a826
+97	2427	7283237024066378	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b52771bfec91e1cb
+1559	2649	7283237024505181	C:/temp/Lab1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1j314q6v/obj/arm64-v8a/libswappywrapper.so	bf6365a78caf50d6
+956	3212	7283237032069890	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	eddb6b11b51953dc
+3213	3548	7283237034528096	C:/temp/Lab1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1j314q6v/obj/arm64-v8a/libgame.so	447ac80d6a0f506c
