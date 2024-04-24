@@ -19,7 +19,7 @@ public class Padlock : MonoBehaviour
     {
         if (bearHeadManager.bearsDecapitated == 3)
         {
-            door.GetComponent<Rigidbody>().isKinematic = false;
+            door.GetComponent<Rigidbody>().isKinematic = false; 
             handle.GetComponent<BoxCollider>().enabled = true;
             this.GetComponent<Rigidbody>().isKinematic = false;
         }
