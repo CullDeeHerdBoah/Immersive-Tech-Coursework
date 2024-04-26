@@ -6,14 +6,16 @@ public class TeddyBehead : MonoBehaviour
 {
     [SerializeField] Rigidbody bearHeadPhysics;
 
-        private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Knife"))
+        if (other.CompareTag("Knife"))
         {
             bearHeadPhysics.isKinematic = false;
             bearHeadManager.bearsDecapitated++;
+            this.GetComponent<BoxCollider>().enabled = false;
         }
-         
+
     }
 
 }
