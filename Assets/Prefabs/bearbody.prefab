@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3005931943301977925}
   - component: {fileID: 7113266329594308460}
   - component: {fileID: 1200620624069780215}
-  - component: {fileID: 8570708801442022347}
   - component: {fileID: 1479069148136756656}
+  - component: {fileID: 9132217218110944067}
   m_Layer: 0
   m_Name: bearbody
   m_TagString: Untagged
@@ -102,28 +102,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bearHeadPhysics: {fileID: 6598145496669436288}
---- !u!64 &8570708801442022347
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2199158061952709573}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5927134549545925966, guid: 6f31a7af438a35044a4a1c44f9f878bf, type: 3}
+  beheadSounds:
+  - {fileID: 8300000, guid: 88d08e3a9e4516645861b83476d2cbd3, type: 3}
+  - {fileID: 8300000, guid: 2d635e6f256203c4eab5d92a799e1c07, type: 3}
+  - {fileID: 8300000, guid: 5b4e2c7853ca1a448a8df9ea1da25865, type: 3}
+  - {fileID: 8300000, guid: 84a3aadd1bde09e47b22512601fb7b78, type: 3}
+  - {fileID: 8300000, guid: f44a07afb13b5b84a8f2098d8cb61a20, type: 3}
+  boxCollider: {fileID: 1479069148136756656}
 --- !u!65 &1479069148136756656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -143,8 +128,31 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 25.653717, y: 3.5080817, z: 25.157194}
-  m_Center: {x: -0.32067147, y: 57.88, z: 0.33168116}
+  m_Size: {x: 42.7, y: 12.276028, z: 36.260525}
+  m_Center: {x: -0.3206715, y: 54.105553, z: 2.528408}
+--- !u!136 &9132217218110944067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199158061952709573}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 33.78501
+  m_Height: 69.76937
+  m_Direction: 1
+  m_Center: {x: 0.00000002321471, y: 23.04953, z: 8.093677}
 --- !u!1 &4094400594702712111
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +263,7 @@ CapsuleCollider:
   m_Radius: 20.972008
   m_Height: 40.876015
   m_Direction: 1
-  m_Center: {x: -0.01616478, y: 19.2, z: -2.46}
+  m_Center: {x: -0.01616478, y: 23.1, z: 1.9}
 --- !u!54 &6598145496669436288
 Rigidbody:
   m_ObjectHideFlags: 0
